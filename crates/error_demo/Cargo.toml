@@ -1,0 +1,16 @@
+[package]
+name = "error_demo"
+version = "0.1.0"
+edition = "2021"
+description = "Typed error handling demo with thiserror and the ? operator"
+
+[dependencies]
+# thiserror generates Display and From impls for custom error enums.
+# It's the right choice for libraries and internal crates because callers
+# can match on specific error variants. We intentionally avoid `anyhow` here:
+# anyhow is better for top-level application code where you just want to
+# print-and-exit, but it erases the error type so callers can't match on it.
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
