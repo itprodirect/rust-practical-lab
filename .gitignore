@@ -17,3 +17,12 @@
 
 # OS files
 Thumbs.db
+
+# Node.js local dependencies (used by FFI examples)
+**/node_modules/
+
+# wasm-pack generated output
+crates/wasm_demo/pkg/
+
+# local scratch/temp outputs
+.tmp/
