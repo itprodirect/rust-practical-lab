@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "C ABI interop demo and reusable native functions"
 license = "MIT"
-repository = "https://github.com/itprodirect/rust-hello-world"
+repository = "https://github.com/itprodirect/rust-practical-lab"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

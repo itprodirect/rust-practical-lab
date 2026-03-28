@@ -1,4 +1,4 @@
-# Claude Code Session Plan — rust-hello-world
+# Claude Code Session Plan — rust-practical-lab
 
 > **Status update (2026-02-17):** Phases 0-7 are now implemented in this repository,
 > including `ffi_demo`, `wasm_demo`, and `power_blocks`.
@@ -21,8 +21,8 @@ rustc --version          # confirm 1.78+
 cargo --version
 
 # 2. Clone the repo
-git clone https://github.com/itprodirect/rust-hello-world.git
-cd rust-hello-world
+git clone https://github.com/itprodirect/rust-practical-lab.git
+cd rust-practical-lab
 
 # 3. Install optional tooling (used in later phases)
 cargo install cargo-audit
@@ -365,5 +365,3 @@ After all phases are complete:
 4. **Use `@filename` references.** Point Claude Code at specific files when asking for edits.
 5. **Commit per phase.** Each phase = one atomic commit with a descriptive message.
 6. **If something breaks,** paste the error into Claude Code: `"I'm getting this error: [paste]. Fix it."`
-
-

@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Criterion benchmarks for log_parser"
 license = "MIT"
-repository = "https://github.com/itprodirect/rust-hello-world"
+repository = "https://github.com/itprodirect/rust-practical-lab"
 
 [[bench]]
 name = "parser_bench"

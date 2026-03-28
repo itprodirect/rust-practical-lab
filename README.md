@@ -1,6 +1,6 @@
-# rust-hello-world
+# rust-practical-lab
 
-[![CI](https://github.com/itprodirect/rust-hello-world/actions/workflows/ci.yml/badge.svg)](https://github.com/itprodirect/rust-hello-world/actions/workflows/ci.yml)
+[![CI](https://github.com/itprodirect/rust-practical-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/itprodirect/rust-practical-lab/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-stable-orange.svg)](https://www.rust-lang.org/)
 
@@ -56,8 +56,9 @@ This loop keeps learning practical and transferable.
 ## Workspace Layout
 
 ```text
-rust-hello-world/
+rust-practical-lab/
 |- README.md
+|- AGENTS.md
 |- LICENSE
 |- Cargo.toml
 |- crates/
@@ -71,6 +72,7 @@ rust-hello-world/
 |  `- power_blocks/       # reusable patterns for real projects
 |- benches/parser_bench/  # criterion benchmarks
 |- docs/                  # phase-by-phase guidance
+|- logs/                  # dated session logs
 `- scripts/               # utility and focused check scripts
 ```
 
@@ -125,7 +127,15 @@ See `crates/ffi_demo/examples/README.md` for exact setup and troubleshooting.
 
 ## Session Notes
 
+- [Session Log (2026-03-27)](logs/2026-03-27-session.md)
 - [Session Wrap-Up (2026-02-17)](docs/08-session-wrap-up-2026-02-17.md)
+
+## Repo Memory
+
+- [AGENTS.md](AGENTS.md)
+- [Repo Brief](docs/repo-brief.md)
+- [Heartbeat](docs/heartbeat.md)
+- [Decisions](docs/decisions.md)
 
 ## Documentation
 
@@ -144,5 +154,3 @@ See `crates/ffi_demo/examples/README.md` for exact setup and troubleshooting.
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
-
